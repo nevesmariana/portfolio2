@@ -1,0 +1,315 @@
+/* ===========================
+   RESET
+=========================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #1a1a1a;
+    overflow-x: hidden;
+    line-height: 1.6;
+}
+
+/* ===========================
+   NAVBAR
+=========================== */
+.navbar {
+    background-color: #0b1f3a !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand {
+    color: #fff !important;
+    font-family: 'Courier New', monospace;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f0f0f0 !important;
+}
+
+/* ===========================
+   HERO
+=========================== */
+.hero {
+    background-color: #0b1f3a;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 120px 20px 80px;
+}
+
+.hero .display-1 {
+    font-family: 'Times New Roman', serif;
+    font-size: clamp(2rem, 5vw, 3rem);
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.hero .nome {
+    font-size: clamp(1rem, 2vw, 1.4rem);
+    color: #fff;
+    font-weight: 500;
+    margin-top: 0.5rem;
+}
+
+.btn-custom {
+    background-color: black !important;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #222;
+}
+
+/* ===========================
+   SOBRE MIM
+=========================== */
+.about-img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #0d2a4a;
+    box-shadow: #0b1f3a;
+}
+
+.about-text {
+    margin-left: 30px;
+}
+
+#sobre p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+/* ===========================
+   SKILLS
+=========================== */
+
+.skills-section {
+    background-color: #e2e2e2;
+    padding: 80px 20px;
+}
+
+.skills-row {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* HARD SKILLS */
+
+.skills-badges {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 8px;
+    justify-content: center;
+}
+
+.skills-badges img {
+    width: 95px;
+    height: 32px;
+    object-fit: contain;
+}
+
+/* SOFT SKILLS */
+
+.soft-list {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: left;
+    max-width: 220px;
+    margin: auto;
+}
+
+/* ===========================
+   PROJECTS
+=========================== */
+
+.project-card {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+    height: 100%;
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px #0b1f3a;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body a {
+    margin-top: auto;
+}
+
+/* esconder botão admin */
+
+#toggleFormBtn {
+    display: none;
+}
+
+/* ===========================
+   BUTTONS
+=========================== */
+.btn-custom {
+    background-color: #0b1f3a !important;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #132f57 !important;
+    transform: scale(1.05);
+}
+
+/* ===========================
+   FORMULÁRIOS
+=========================== */
+form input[type=text] {
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+form button {
+    margin-top: 5px;
+}
+
+/* ===========================
+   CERTIFICADOS
+=========================== */
+.certificados-container .card {
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.certificados-container .card:hover {
+    transform: translateY(-5px);
+    box-shadow: #0b1f3a;
+}
+
+#toggleCursoFormBtn {
+    display: none;
+}
+
+/* ===========================
+   PROJETOS SECTION
+=========================== */
+
+.projects-section {
+    background-color: #dadada;
+    padding: 80px 20px;
+}
+
+/* ===========================
+   CERTIFICADOS SECTION
+=========================== */
+
+#cursos {
+    background-color: #dadada;
+    padding: 80px 20px;
+}
+
+/* ===========================
+   CONTATO
+=========================== */
+
+.contact-section {
+    background-color: #e2e2e2;
+    padding-top: 120px;
+    min-height: 80vh;
+}
+
+.contact-card {
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.contact-item {
+    margin-bottom: 25px;
+}
+
+.contact-icon {
+    font-size: 2.5rem;
+    color: #0b1f3a;
+    margin-bottom: 8px;
+}
+
+.contact-item p {
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+.footer-vinho {
+    background-color: #0b1f3a;
+    color: #fff;
+    padding: 15px;
+}
+
+/* ===========================
+   RESPONSIVO
+=========================== */
+@media (max-width: 992px) {
+    .about-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-text {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .skills-grid {
+        justify-items: center;
+    }
+
+    .soft-list {
+        text-align: center;
+    }
+
+    .project-card {
+        height: auto;
+    }
+}
