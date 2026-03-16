@@ -151,7 +151,7 @@ function ativarDeleteProjetos() {
 
     botoes.forEach(btn => {
 
-        btn.style.display = "block";
+        btn.classList.toggle("exibe")
 
         btn.addEventListener("click", () => {
 
@@ -179,17 +179,11 @@ document.querySelector("#projetos h2").addEventListener("click", () => {
 
     cliques++;
 
-    if (cliques === 3) {
+    if (cliques === 4) {
 
-        document.getElementById("toggleFormBtn").style.display = "inline-block";
-
-    }
-
-    if (cliques === 5) {
-
+        document.getElementById("toggleFormBtn").classList.toggle("exibe");
         ativarDeleteProjetos();
         cliques = 0;
-
     }
 
 });
