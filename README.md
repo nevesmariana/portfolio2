@@ -1,16 +1,16 @@
-# 🚀 Portfólio Dinâmico | Mariana Neves
+# Portfólio Dinâmico | Mariana Neves
 
 Este é o meu portfólio pessoal desenvolvido com arquitetura **Frontend + Backend**.
 
-## ⚙️ Como executar o projeto
+## Como executar o projeto
 
-### 1️⃣ Clonar o repositório
+### Clonar o repositório
 
 ```bash
 git clone https://github.com/nevesmariana/portflio2.git
 cd portflio2
 
-###Rodar o Backend (API)
+Rodar o Backend (API)
 cd Backend
 npm install
 npm start
