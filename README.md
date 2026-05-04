@@ -1,24 +1,20 @@
-🚀 Como Executar o Projeto
-Siga os passos abaixo para rodar o projeto localmente:
+# 🚀 Portfólio Dinâmico | Mariana Neves
 
-1. Clonar o Repositório
-Bash
-git clone https://github.com/nevesmariana/portf-lio2.git
-cd portf-lio2
-2. Configurar o Backend
-Entre na pasta do servidor, instale as dependências e inicie o serviço:
+Este é o meu portfólio pessoal desenvolvido com arquitetura **Frontend + Backend**.
 
-Bash
+## ⚙️ Como executar o projeto
+
+### 1️⃣ Clonar o repositório
+
+```bash
+git clone https://github.com/nevesmariana/portflio2.git
+cd portflio2
+
+###Rodar o Backend (API)
 cd Backend
 npm install
 npm start
-O servidor estará rodando em: http://localhost:3000
 
-3. Configurar o Frontend
-Abra uma nova aba no seu terminal (ou pare o servidor temporariamente).
+A API será executada em:
 
-Abra a pasta Frontend no seu VS Code.
-
-Clique com o botão direito no arquivo index.html e selecione "Open with Live Server".
-
-Nota: Certifique-se de que o Backend esteja rodando enquanto você visualiza o Frontend, caso contrário, os dados (projetos e certificados) não aparecerão na tela.
+http://localhost:3000
