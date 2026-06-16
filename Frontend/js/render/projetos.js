@@ -7,7 +7,7 @@ export function renderizarProjetos(projetos, admin) {
             <div class="card project-card shadow-sm border-0">
                 <img src="${p.img}" class="card-img-top" alt="${p.titulo}">
                 <div class="card-body bg-white text-center">
-                    <h5 class="fw-bold">${p.titulo}</h5>
+                    <h6 class="fw-bold">${p.titulo}</h6>
                     <p class="text-muted small">${p.descricao}</p>
 
                     <a href="${p.link}" target="_blank" class="btn btn-custom w-100">
@@ -41,24 +41,23 @@ export function renderizarProjetos(projetos, admin) {
                     </div>
 
                     <div class="modal-body">
-                        <h6>Empresa Parceira</h6>
-                        <p>${p.empresa}</p>
+                         <h5 class="fw-bold">Empresa Parceira</h5>
+                         <p>${p.empresa}</p>
 
-                        <h6>Problema</h6>
+                        <h5 class="fw-bold">Problema</h5>
                         <p>${p.problema}</p>
 
-                        <h6>Solução</h6>
+                        <h5 class="fw-bold">Solução</h5>
                         <p>${p.solucao}</p>
 
-                        <h6>Tecnologias Utilizadas</h6>
+                        <h5 class="fw-bold">Tecnologias Utilizadas</h5>
                         <ul>
                             ${p.tecnologias.map(t => `<li>${t}</li>`).join("")}
                         </ul>
 
-                        <h6>Contribuições Pessoais</h6>
+                        <h5 class="fw-bold">Contribuições Pessoais</h5>
                         <p>${p.contribuicoes}</p>
                     </div>
-
                 </div>
             </div>
         </div>

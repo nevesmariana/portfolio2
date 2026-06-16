@@ -1,7 +1,7 @@
 export const projetos = [
     {
         id: 1,
-        titulo: "Países para Viajar",
+        titulo: "Países para Viajar (1º Semestre – 2025-2)",
         descricao: "HTML e CSS básicos apresentando países recomendados.",
         img: "Frontend/imagens/projeto1.png",
         link: "https://github.com/nevesmariana/Desafio1-HTML",
@@ -39,7 +39,7 @@ export const projetos = [
     },
     {
         id: 2,
-        titulo: "Praias para Visitar",
+        titulo: "Praias para Visitar (1º Semestre – 2025-2)",
         descricao: "HTML, CSS e Bootstrap apresentando destinos litorâneos.",
         img: "Frontend/imagens/Projeto2.png",
         link: "https://github.com/nevesmariana/Desafio-2",
@@ -76,7 +76,7 @@ export const projetos = [
     },
     {
         id: 3,
-        titulo: "Análise do Censo — API",
+        titulo: "Análise do Censo — API (1º Semestre – 2025-2)",
         descricao: "Análise de dados do Censo com gráficos e visualizações.",
         img: "Frontend/imagens/Api.jpeg",
         link: "https://github.com/koitech-API/ProjectAPI",
@@ -118,8 +118,8 @@ export const projetos = [
     },
     {
         id: 4,
-        titulo: "",
-        descricao: "Análise de dados do Censo com gráficos e visualizações.",
+        titulo: "KoiTech Aero – Plataforma de Normas Aeronáuticas (2º Semestre – 2026-1)",
+        descricao: "Plataforma web para centralização e consulta de normas aeronáuticas, facilitando o acesso a conteúdos técnicos da área.",
         img: "Frontend/imagens/Api2.png",
         link: "https://github.com/KoiTech-Aero",
 

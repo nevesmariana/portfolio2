@@ -14,9 +14,9 @@ function getGreeting() {
     const el = document.getElementById("greeting");
     if (!el) return;
     const hour = new Date().getHours();
-    if (hour < 12) el.textContent = "Bom dia, seja bem-vinda!";
-    else if (hour < 18) el.textContent = "Boa tarde, seja bem-vinda!";
-    else el.textContent = "Boa noite, seja bem-vinda!";
+    if (hour < 12) el.textContent = "Bom dia, seja bem-vindo(a)!";
+    else if (hour < 18) el.textContent = "Boa tarde, seja bem-vindo(a)!";
+    else el.textContent = "Boa noite, seja bem-vindo(a)!";
 }
 
 // =========================
