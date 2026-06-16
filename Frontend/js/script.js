@@ -1,4 +1,4 @@
-import { fetchData } from "./api.js";
+import { projetos, cursos } from "./dados.js";
 import { renderizarCompetencias } from "./render/competencia.js";
 import { renderizarProjetos } from "./render/projetos.js";
 import { renderizarCertificados } from "./render/certificados.js";
@@ -49,21 +49,9 @@ if (logo) {
 // =========================
 // CARREGAMENTO DE DADOS (INIT)
 // =========================
-async function init() {
-    // Busca todos os dados simultaneamente
-    const [competencias, projetos, certificados, formacoes] = await Promise.all([
-        fetchData("/competencias"),
-        fetchData("/projetos"),
-        fetchData("/cursos"),
-        fetchData("/formacoes")
-    ]);
-    console.log("Dados recebidos:", { competencias, projetos, certificados, formacoes })
-
-    // Renderiza passando o estado do admin para as funções
-    renderizarCompetencias(competencias, admin);
+function init() {
     renderizarProjetos(projetos, admin);
-    renderizarCertificados(certificados, admin);
-    renderizarFormacoes(formacoes, admin);
+    renderizarCertificados(cursos, admin);
 }
 
 // =========================
